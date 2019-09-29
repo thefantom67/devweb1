@@ -27,11 +27,11 @@
        
             <br />
             <label for="adresse">Adresse :</label><br />
-            <input type="text" name="adresse" id="adresse" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Email address invalide" />
+            <input type="text" name="adresse" id="adresse" />
        
             <br />
             <label for="cp">Code postal :</label><br />
-            <input type="text" name="cp" id="cp" pattern = "\d{2}[ ]?\d{3}"/>
+            <input type="text" name="cp" id="cp"/>
        
             <br />
             <label for="ville">Ville :</label><br />
@@ -39,19 +39,26 @@
        
             <br />
             <label for="tel">Téléphone :</label><br />
-            <input type="text" name="tel" id="tel" pattern = "[0-9]{10}"/>
+            <input type="text" name="tel" id="tel"/>
        
             <br />
             <label for="email">Email :</label><br />
             <input type="text" name="email" id="email" />
-       
-            <br />
-            <label for="civilite">Civilité</label><br />
-            <select name="civilite" id="civilite">
-               <option value="masculin">Masculin</option>
-               <option value="feminin">Feminin</option>
-               <option value="trans">Trans</option>
-            </select>
+            
+            <div class="input-field col s12">
+                <p> 
+                    <label>
+                        <input class="with-gap" name="civ" type="radio" id="mr" checked />
+                        <span>Homme</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input class="with-gap" name="civ" type="radio" id="mrs" />
+                        <span>Femme</span>
+                    </label>
+                </p>
+            </div>
        
             <br />
             <br />
