@@ -2,10 +2,13 @@ header {
   width: 10px;
   height: 20px;
 }
-
 body {
-  background-color: #000080;
-  color: #FFFFFF;
   margin-left: 50px;
   margin-right: 50px;
+}
+body P {
+  text-align: center;
+}
+body H1 {
+  text-align: center;
 }
