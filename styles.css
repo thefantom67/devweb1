@@ -1,9 +1,10 @@
-#header {
+header {
   width: 10px;
   height: 20px;
 }
-#body {
-  background: #000080;
+
+body {
+  background-color: #000080;
   color: #FFFFFF;
   margin-left: 50px;
   margin-right: 50px;
